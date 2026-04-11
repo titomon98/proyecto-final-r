@@ -16,7 +16,7 @@ Parte I - Conociendo los datos
 
 ```{r}
 #Archivo CSV
-proyectos = read_csv("projects.csv")
+proyectos = read_csv("data/proyectos_innovacion.csv")
 
 #Primeras filas y estructura del dataset
 head(proyectos)
@@ -32,7 +32,7 @@ lista_paises = unique(proyectos$pais)
 #Lista de areas tecnologicas unicas
 lista_areas = unique(proyectos$area_tecnologica)
 
-#Estadisticas iniciales del dataframe
+#Estadisticas iniciales del dataframe, solo promedios
 estadisticas_iniciales = data.frame(
   variable = c("presupuesto_usd", "publicaciones", "investigadores", "duracion_meses", "patentes"),
   promedio = c(mean(proyectos$presupuesto_usd, na.rm = TRUE), mean(proyectos$publicaciones, na.rm = TRUE), mean(proyectos$investigadores, na.rm = TRUE), mean(proyectos$duracion_meses, na.rm = TRUE), mean(proyectos$patentes, na.rm = TRUE)),
@@ -95,13 +95,13 @@ presupuesto_pais_area = proyectos %>% group_by(pais, area_tecnologica) %>%
 print(presupuesto_pais_area)
 
 #Numero de proyectos por año
-proyectos_por_anio = proyectos %>% group_by(anio) %>%
+proyectos_por_anio_inicio = proyectos %>% group_by(anio_inicio) %>%
   summarize(num_proyectos = n())
 
-print(proyectos_por_anio)
+print(proyectos_por_anio_inicio)
 
 #Productividad promedio por area tecnologica y nivel de impacto
-productividad_area_impacto = proyectos %>% group_by(area_tecnologica, nivel_impacto) %>%
+productividad_area_impacto = proyectos %>% group_by(area_tecnologica, impacto) %>%
   summarize(productividad_promedio = mean(productividad, na.rm = TRUE), .groups = "drop")
 
 print(productividad_area_impacto)
@@ -121,4 +121,207 @@ top_productividad = proyectos %>% group_by(pais) %>%
   slice_head(n = 5)
 
 print(top_productividad)
+```
+
+Parte IV - Integración de datasets
+
+```{r}
+# Cargamos rápidamente los PIB  de los países
+paises_pib = read_csv("data/paises_pib.csv")
+
+# Realizamos un resumen antes, solo para hacer más legible el código posterior
+resumen_pais = proyectos %>%
+  group_by(pais) %>%
+  summarize(
+    numero_proyectos = n(),
+    presupuesto_promedio = mean(presupuesto_usd, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+# Integramos los datasets con inner_join
+proyectos_pib = inner_join(resumen_pais, paises_pib, by = "pais")
+
+# Añadimos los nuevos indicadores
+proyectos_pib = proyectos_pib %>%
+  mutate(
+    productos_por_millon_pib = numero_proyectos / pib_millones,
+    presupuesto_relativo = presupuesto_promedio / pib_millones
+  )
+
+# Países con mayor intensidad de inversión en innovación
+mayor_intensidad = proyectos_pib %>%
+  arrange(desc(productos_por_millon_pib)) %>%
+  slice_head(n = 5)
+
+# Países con menor eficiencia relativa
+menor_eficiencia = proyectos_pib %>%
+  arrange(presupuesto_relativo) %>%
+  slice_head(n = 5)
+
+print(mayor_intensidad)
+print(menor_eficiencia)
+```
+
+Parte V - Lógica condicional
+
+```{r}
+# Definimos los umbrales primero para integrarlos fácilmente después en las condicionales, será más fácil comprender el código así
+media_productividad  = mean(proyectos$productividad, na.rm = TRUE)
+sd_productividad     = sd(proyectos$productividad, na.rm = TRUE)
+media_presupuesto    = mean(proyectos$presupuesto_usd, na.rm = TRUE)
+
+# Realizamos la función para clasificar según los parámetors indicados, usando las categorías del ejemplo
+clasificar_proyecto = function(productividad, presupuesto_usd, impacto) {
+  if (impacto == "Alto" && productividad > media_productividad) {
+    "Proyecto estratégico"
+  } else if (presupuesto_usd > media_presupuesto && productividad < media_productividad) {
+    "Riesgo e ineficiencia"
+  } else if (productividad >= (media_productividad - sd_productividad) &&
+             productividad <= (media_productividad + sd_productividad)) {
+    "Proyecto estándar"
+  } else {
+    "Proyecto emergente"
+  }
+}
+
+# Aplicamos al final la función a nuestros proyectos uno a uno
+proyectos = proyectos %>%
+  rowwise() %>%
+  mutate(categoria_proyecto = clasificar_proyecto(productividad, presupuesto_usd, impacto)) %>%
+  ungroup()
+
+table(proyectos$categoria_proyecto)
+```
+
+Parte VI - Programación con ciclos
+
+```{r}
+# Definimos las variables que vamos a utilizar para el ciclo for
+paises_unicos   = unique(proyectos$pais)
+indicadores_pais = data.frame() # Aquí será donde se irán almacenando los resultados
+
+for (p in paises_unicos) {
+  subset_p = proyectos[proyectos$pais == p, ]
+  fila = data.frame(
+    pais                     = p,
+    num_proyectos            = nrow(subset_p),
+    presupuesto_total        = sum(subset_p$presupuesto_usd, na.rm = TRUE),
+    promedio_publicaciones   = mean(subset_p$publicaciones, na.rm = TRUE),
+    indice_eficiencia_promedio = mean(
+      (subset_p$publicaciones + subset_p$patentes) / subset_p$presupuesto_usd,
+      na.rm = TRUE
+    )
+  )
+  indicadores_pais = rbind(indicadores_pais, fila)
+}
+
+print(indicadores_pais)
+```
+
+```{r}
+# Similar, definimos también las variables que vamos a utilizar durante el ciclo while, así como los umbrales
+eficiencia_vec = (proyectos$publicaciones + proyectos$patentes) / proyectos$presupuesto_usd
+umbral = (mean(eficiencia_vec, na.rm = TRUE) + 2) * sd(eficiencia_vec, na.rm = TRUE)
+cat("Umbral de eficiencia:", round(umbral, 6), "\n") # Para fines prácticos mostramos en pantalla el umbral
+
+proyectos_sobresalientes = c()
+i = 1
+
+while (i <= nrow(proyectos)) {
+  if (!is.na(eficiencia_vec[i]) && eficiencia_vec[i] > umbral) {
+    proyectos_sobresalientes = c(proyectos_sobresalientes, proyectos$id_proyecto[i])
+  }
+  i = i + 1
+}
+cat("Proyectos sobresalientes encontrados (Id's):", length(proyectos_sobresalientes), "\n")
+print(proyectos_sobresalientes)
+```
+
+Parte VII - Desarrollo de funciones analíticas
+
+```{r}
+# Función para obtener el índice de eficiencia 
+calcular_eficiencia = function(publicaciones, patentes, presupuesto_usd) {
+  (publicaciones + patentes) / presupuesto_usd
+}
+
+# Función para obtener categoría estratégica según impacto y productividad, dado que no hay una regla definida
+# Por lo tanto utilizaremos una simple condicional siendo que si el impacto es 'Alto' y su promedio de productividad está por encima del promedio
+# Será estratégico, caso contrario no.
+
+# Como dato, podríamos reutilizar la función que declaramos en la parte V, clasificar_proyecto, pero entran en juego otros parámetros extras
+clasificar_impacto_estrategico = function(df) {
+  df %>%
+    mutate(
+      categoria_estrategica = ifelse(
+        impacto == "Alto" & productividad > mean(productividad, na.rm = TRUE),
+        "Estratégico",
+        "No estratégico"
+      )
+    )
+}
+
+# La última función para realizar un resumen estadístico de una variable numérica
+resumen_estadistico = function(variable) {
+  list(
+    media             = mean(variable, na.rm = TRUE),
+    mediana           = median(variable, na.rm = TRUE),
+    desviacion_estandar = sd(variable, na.rm = TRUE),
+    percentil_25      = quantile(variable, 0.25, na.rm = TRUE),
+    percentil_75      = quantile(variable, 0.75, na.rm = TRUE),
+    percentil_90      = quantile(variable, 0.90, na.rm = TRUE)
+  )
+}
+
+# Agregamos la columna de eficiencia y categoría estratégica al dataframe
+proyectos = proyectos %>%
+  mutate(eficiencia = calcular_eficiencia(publicaciones, patentes, presupuesto_usd))
+
+proyectos = clasificar_impacto_estrategico(proyectos)
+
+# Y aplicamos el resumen estadístico a variables clave con lapply
+variables_numericas = list(
+  presupuesto  = proyectos$presupuesto_usd,
+  publicaciones = proyectos$publicaciones,
+  eficiencia   = proyectos$eficiencia
+)
+
+resumenes = lapply(variables_numericas, resumen_estadistico)
+print(resumenes)
+```
+
+Parte VIII - Visualización, en esta sección únicamente realizaremos los diagramas, no hace falta mucha complejidad
+
+```{r}
+# Histograma
+ggplot(proyectos, aes(x = presupuesto_usd)) +
+  geom_histogram(bins = 30, fill = "steelblue", color = "white") +
+  labs(
+    title = "Distribución del Presupuesto",
+    x     = "Presupuesto",
+    y     = "Frecuencia"
+  ) +
+  theme_minimal()
+
+# Dispersión
+ggplot(proyectos, aes(x = presupuesto_usd, y = publicaciones, color = area_tecnologica)) +
+  geom_point(alpha = 0.7) +
+  labs(
+    title = "Presupuesto vs. Publicaciones",
+    x     = "Presupuesto",
+    y     = "Publicaciones",
+    color = "Área Tecnológica"
+  ) +
+  theme_minimal()
+
+# Boxplot
+ggplot(proyectos, aes(x = area_tecnologica, y = presupuesto_usd, fill = area_tecnologica)) +
+  geom_boxplot(show.legend = FALSE) +
+  labs(
+    title = "Presupuesto por Área Tecnológica",
+    x     = "Área Tecnológica",
+    y     = "Presupuesto"
+  ) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
