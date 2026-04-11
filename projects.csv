@@ -1,0 +1,301 @@
+id_proyecto,pais,area_tecnologica,nivel_impacto,anio,presupuesto_usd,publicaciones,investigadores,duracion_meses,patentes
+P001,Mexico,Inteligencia Artificial,Bajo,2020,132098,4,4,9,2
+P002,Bolivia,Inteligencia Artificial,Bajo,2021,104165,3,3,11,0
+P003,Bolivia,Internet de las Cosas,Alto,2022,504248,35,14,31,6
+P004,Paraguay,Ciencia de Datos,Alto,2019,621571,28,12,28,4
+P005,Peru,Inteligencia Artificial,Alto,2021,450707,29,13,32,9
+P006,Guatemala,Ciberseguridad,Bajo,2018,149615,3,5,13,2
+P007,Argentina,Inteligencia Artificial,Alto,2023,519484,27,9,31,9
+P008,Mexico,Ciberseguridad,Medio,2021,366640,14,6,19,3
+P009,Argentina,Ciencia de Datos,Bajo,2023,184939,3,4,11,0
+P010,Ecuador,Ciberseguridad,Medio,2023,380397,17,6,24,3
+P011,Guatemala,Biotecnologia,Alto,2020,610325,26,9,30,7
+P012,Peru,Biotecnologia,Bajo,2021,151856,8,6,10,1
+P013,Colombia,Biotecnologia,Bajo,2022,170644,5,6,14,1
+P014,Argentina,Biotecnologia,Bajo,2021,111915,3,3,10,2
+P015,Colombia,Ciberseguridad,Bajo,2018,150432,6,6,12,2
+P016,Guatemala,Inteligencia Artificial,Bajo,2022,198419,5,5,9,1
+P017,Brasil,Biotecnologia,Medio,2018,389292,13,9,16,1
+P018,Chile,Internet de las Cosas,Bajo,2019,120032,5,4,8,2
+P019,Peru,Ciberseguridad,Alto,2018,590306,27,11,25,4
+P020,Paraguay,Inteligencia Artificial,Alto,2023,654798,20,10,28,8
+P021,Ecuador,Internet de las Cosas,Alto,2020,676653,31,11,41,9
+P022,Argentina,Ciencia de Datos,Medio,2023,370361,14,8,22,4
+P023,Mexico,Biotecnologia,Alto,2018,577254,18,11,42,4
+P024,Guatemala,Inteligencia Artificial,Bajo,2023,107716,4,3,8,1
+P025,Mexico,Internet de las Cosas,Alto,2020,654496,24,10,42,7
+P026,Ecuador,Biotecnologia,Medio,2021,249914,10,5,24,4
+P027,Peru,Ciberseguridad,Medio,2021,391122,9,5,14,4
+P028,Peru,Inteligencia Artificial,Alto,2019,499724,35,15,28,6
+P029,Colombia,Ciencia de Datos,Medio,2019,219761,16,9,15,1
+P030,Bolivia,Inteligencia Artificial,Alto,2019,487194,31,15,39,4
+P031,Brasil,Inteligencia Artificial,Alto,2021,401130,30,12,38,5
+P032,Brasil,Internet de las Cosas,Bajo,2023,163788,4,4,12,0
+P033,Guatemala,Internet de las Cosas,Bajo,2022,107989,8,5,8,0
+P034,Paraguay,Ciberseguridad,Bajo,2022,120635,3,3,10,0
+P035,Paraguay,Inteligencia Artificial,Bajo,2019,152923,3,4,8,2
+P036,Mexico,Ciberseguridad,Bajo,2022,174085,7,5,12,0
+P037,Peru,Biotecnologia,Medio,2021,234308,13,8,19,1
+P038,Guatemala,Ciberseguridad,Bajo,2022,113104,3,4,12,0
+P039,Peru,Inteligencia Artificial,Alto,2020,549415,23,15,41,8
+P040,Chile,Internet de las Cosas,Bajo,2022,101025,8,5,9,0
+P041,Chile,Inteligencia Artificial,Alto,2023,690048,22,12,33,7
+P042,Argentina,Ciencia de Datos,Alto,2023,732523,26,15,32,9
+P043,Guatemala,Inteligencia Artificial,Bajo,2021,136265,3,3,13,0
+P044,Chile,Biotecnologia,Bajo,2021,172309,8,6,8,0
+P045,Mexico,Biotecnologia,Bajo,2018,148393,7,4,14,0
+P046,Guatemala,Ciencia de Datos,Medio,2018,293797,12,6,24,1
+P047,Peru,Internet de las Cosas,Medio,2022,396471,11,6,16,2
+P048,Brasil,Inteligencia Artificial,Alto,2023,574160,31,11,32,4
+P049,Mexico,Ciberseguridad,Alto,2021,516619,24,15,35,5
+P050,Argentina,Biotecnologia,Alto,2023,501255,30,13,32,9
+P051,Mexico,Ciencia de Datos,Medio,2023,333537,15,9,19,1
+P052,Mexico,Ciencia de Datos,Alto,2022,539180,19,9,37,5
+P053,Peru,Ciberseguridad,Bajo,2022,115157,6,4,12,0
+P054,Brasil,Inteligencia Artificial,Bajo,2022,190027,8,4,13,1
+P055,Mexico,Ciencia de Datos,Bajo,2020,186951,3,5,12,2
+P056,Brasil,Ciencia de Datos,Medio,2023,277504,17,6,17,4
+P057,Brasil,Biotecnologia,Bajo,2022,139446,6,3,12,1
+P058,Argentina,Ciberseguridad,Bajo,2022,185813,5,6,15,1
+P059,Argentina,Internet de las Cosas,Medio,2023,244483,10,7,22,3
+P060,Mexico,Biotecnologia,Bajo,2020,129444,4,4,8,0
+P061,Argentina,Ciberseguridad,Bajo,2018,159692,6,4,14,1
+P062,Brasil,Biotecnologia,Alto,2023,402907,21,14,31,4
+P063,Bolivia,Ciberseguridad,Alto,2022,530651,21,15,28,9
+P064,Ecuador,Internet de las Cosas,Bajo,2022,141588,6,6,15,0
+P065,Ecuador,Ciberseguridad,Medio,2019,367159,13,9,21,2
+P066,Chile,Ciberseguridad,Alto,2023,549803,25,12,34,5
+P067,Bolivia,Inteligencia Artificial,Alto,2019,521247,30,10,30,3
+P068,Brasil,Ciberseguridad,Medio,2022,322139,15,5,17,4
+P069,Brasil,Internet de las Cosas,Bajo,2018,175456,6,6,8,1
+P070,Chile,Ciberseguridad,Medio,2022,395956,17,9,17,4
+P071,Argentina,Ciencia de Datos,Medio,2021,207608,15,7,24,4
+P072,Colombia,Ciberseguridad,Alto,2022,680034,18,14,42,7
+P073,Guatemala,Inteligencia Artificial,Bajo,2021,117786,6,4,8,1
+P074,Brasil,Ciencia de Datos,Alto,2021,571361,28,14,32,9
+P075,Brasil,Ciencia de Datos,Alto,2021,410162,35,8,35,4
+P076,Mexico,Inteligencia Artificial,Alto,2019,504522,18,10,31,4
+P077,Ecuador,Inteligencia Artificial,Bajo,2019,160952,8,5,13,0
+P078,Paraguay,Internet de las Cosas,Bajo,2023,115012,4,5,9,2
+P079,Guatemala,Ciencia de Datos,Bajo,2023,149192,6,4,9,2
+P080,Argentina,Inteligencia Artificial,Bajo,2020,189687,7,3,8,1
+P081,Bolivia,Ciberseguridad,Bajo,2020,109038,7,5,8,1
+P082,Ecuador,Inteligencia Artificial,Medio,2020,366614,16,6,20,2
+P083,Bolivia,Ciencia de Datos,Bajo,2022,163372,6,6,12,1
+P084,Argentina,Inteligencia Artificial,Medio,2021,263927,16,9,23,4
+P085,Peru,Inteligencia Artificial,Medio,2020,247668,16,6,19,3
+P086,Peru,Ciencia de Datos,Bajo,2023,136211,7,3,11,0
+P087,Argentina,Ciberseguridad,Medio,2022,398748,12,8,24,4
+P088,Ecuador,Inteligencia Artificial,Alto,2020,516180,30,11,33,8
+P089,Paraguay,Ciencia de Datos,Medio,2022,339177,14,8,25,3
+P090,Peru,Ciberseguridad,Medio,2020,265903,12,5,25,2
+P091,Peru,Inteligencia Artificial,Bajo,2022,199901,8,4,11,0
+P092,Ecuador,Ciencia de Datos,Bajo,2022,199641,7,5,9,0
+P093,Chile,Biotecnologia,Medio,2019,279237,9,9,16,3
+P094,Guatemala,Inteligencia Artificial,Bajo,2020,191411,4,6,9,0
+P095,Paraguay,Ciencia de Datos,Medio,2021,315466,14,6,14,3
+P096,Ecuador,Inteligencia Artificial,Alto,2021,657816,20,8,28,4
+P097,Paraguay,Ciencia de Datos,Alto,2019,462102,35,14,31,9
+P098,Bolivia,Ciberseguridad,Medio,2021,277949,15,7,23,1
+P099,Paraguay,Inteligencia Artificial,Alto,2023,510637,26,9,29,4
+P100,Colombia,Internet de las Cosas,Alto,2019,401402,31,15,39,5
+P101,Guatemala,Biotecnologia,Medio,2023,274112,16,5,24,2
+P102,Chile,Internet de las Cosas,Bajo,2019,155723,3,4,10,1
+P103,Colombia,Inteligencia Artificial,Alto,2019,561277,27,15,27,6
+P104,Chile,Ciberseguridad,Medio,2022,341552,16,8,15,1
+P105,Brasil,Ciencia de Datos,Bajo,2020,103390,3,4,8,2
+P106,Chile,Internet de las Cosas,Alto,2019,646677,34,15,32,4
+P107,Paraguay,Ciberseguridad,Bajo,2021,111959,6,5,14,1
+P108,Peru,Inteligencia Artificial,Alto,2020,615820,33,12,36,9
+P109,Bolivia,Inteligencia Artificial,Medio,2018,282448,13,7,15,4
+P110,Bolivia,Inteligencia Artificial,Bajo,2022,160552,6,3,11,2
+P111,Peru,Internet de las Cosas,Medio,2023,315878,9,6,18,2
+P112,Chile,Ciberseguridad,Bajo,2021,115915,3,4,10,1
+P113,Bolivia,Inteligencia Artificial,Bajo,2021,112217,4,3,15,0
+P114,Colombia,Ciberseguridad,Bajo,2020,166698,8,5,14,1
+P115,Ecuador,Biotecnologia,Medio,2022,237917,15,6,23,2
+P116,Mexico,Ciencia de Datos,Medio,2020,333100,13,5,18,3
+P117,Paraguay,Internet de las Cosas,Bajo,2021,119476,6,6,13,1
+P118,Bolivia,Internet de las Cosas,Medio,2021,284352,12,6,23,4
+P119,Argentina,Ciberseguridad,Alto,2020,647975,30,14,28,6
+P120,Guatemala,Biotecnologia,Bajo,2022,143515,3,6,9,2
+P121,Ecuador,Inteligencia Artificial,Bajo,2019,153736,8,4,9,1
+P122,Chile,Ciencia de Datos,Bajo,2023,152098,8,3,13,2
+P123,Bolivia,Ciberseguridad,Medio,2023,388407,16,9,14,1
+P124,Argentina,Ciencia de Datos,Alto,2023,447384,31,9,27,6
+P125,Colombia,Ciencia de Datos,Alto,2018,570065,19,12,35,5
+P126,Brasil,Biotecnologia,Alto,2022,616033,23,10,29,3
+P127,Paraguay,Ciberseguridad,Bajo,2023,131566,6,4,11,1
+P128,Chile,Ciberseguridad,Medio,2023,202463,16,7,24,2
+P129,Mexico,Ciberseguridad,Medio,2022,278421,15,7,21,3
+P130,Argentina,Ciberseguridad,Medio,2018,262182,15,9,19,3
+P131,Chile,Inteligencia Artificial,Bajo,2021,135976,3,3,15,1
+P132,Argentina,Internet de las Cosas,Medio,2019,366885,12,9,18,2
+P133,Mexico,Inteligencia Artificial,Medio,2021,208746,14,6,15,3
+P134,Peru,Ciberseguridad,Alto,2019,469289,35,13,40,7
+P135,Chile,Biotecnologia,Medio,2021,277369,14,5,21,1
+P136,Colombia,Biotecnologia,Bajo,2023,188395,6,5,9,1
+P137,Guatemala,Ciencia de Datos,Bajo,2018,159609,5,5,14,2
+P138,Peru,Inteligencia Artificial,Bajo,2019,161797,3,5,11,2
+P139,Mexico,Ciberseguridad,Bajo,2020,185097,6,3,10,0
+P140,Guatemala,Ciencia de Datos,Medio,2018,225478,12,9,16,4
+P141,Ecuador,Ciencia de Datos,Bajo,2023,191289,7,6,10,1
+P142,Mexico,Ciberseguridad,Bajo,2021,136666,3,5,11,1
+P143,Ecuador,Biotecnologia,Medio,2018,379746,14,9,24,3
+P144,Guatemala,Ciberseguridad,Medio,2019,232023,16,5,24,2
+P145,Paraguay,Inteligencia Artificial,Alto,2020,527700,22,11,26,9
+P146,Bolivia,Biotecnologia,Bajo,2019,130539,5,4,8,1
+P147,Colombia,Biotecnologia,Bajo,2020,122871,3,3,10,0
+P148,Peru,Biotecnologia,Bajo,2020,102068,4,5,8,0
+P149,Brasil,Internet de las Cosas,Alto,2023,433322,33,15,35,7
+P150,Paraguay,Inteligencia Artificial,Medio,2022,258077,9,9,18,4
+P151,Guatemala,Inteligencia Artificial,Medio,2021,311745,10,8,25,4
+P152,Mexico,Inteligencia Artificial,Medio,2022,238884,10,6,18,3
+P153,Brasil,Internet de las Cosas,Bajo,2020,159469,7,6,9,2
+P154,Mexico,Internet de las Cosas,Bajo,2019,156370,6,4,14,1
+P155,Ecuador,Ciberseguridad,Medio,2023,224926,14,8,19,3
+P156,Peru,Biotecnologia,Bajo,2021,108799,3,3,9,1
+P157,Mexico,Ciencia de Datos,Alto,2022,431447,35,13,27,6
+P158,Peru,Ciberseguridad,Bajo,2018,137700,7,5,13,0
+P159,Paraguay,Internet de las Cosas,Alto,2019,744318,33,11,27,5
+P160,Bolivia,Ciencia de Datos,Alto,2020,700993,25,14,41,9
+P161,Paraguay,Internet de las Cosas,Bajo,2023,172972,3,5,8,0
+P162,Chile,Ciencia de Datos,Medio,2020,201600,11,6,23,4
+P163,Mexico,Biotecnologia,Bajo,2023,104018,3,4,14,1
+P164,Ecuador,Ciencia de Datos,Alto,2020,563387,28,9,25,4
+P165,Colombia,Internet de las Cosas,Alto,2023,442772,26,15,37,6
+P166,Paraguay,Ciberseguridad,Medio,2020,256510,17,5,19,4
+P167,Mexico,Ciencia de Datos,Bajo,2023,177743,6,5,8,0
+P168,Brasil,Internet de las Cosas,Alto,2018,507176,27,11,28,9
+P169,Chile,Ciencia de Datos,Medio,2018,202026,16,8,16,2
+P170,Brasil,Internet de las Cosas,Bajo,2019,165570,7,5,9,1
+P171,Guatemala,Ciberseguridad,Alto,2021,440822,28,14,42,6
+P172,Brasil,Ciencia de Datos,Alto,2021,410934,28,10,38,9
+P173,Peru,Inteligencia Artificial,Medio,2018,263783,15,9,20,1
+P174,Brasil,Ciencia de Datos,Bajo,2020,129041,5,4,9,2
+P175,Mexico,Internet de las Cosas,Bajo,2019,145793,5,4,11,0
+P176,Colombia,Ciencia de Datos,Alto,2019,715830,22,9,29,9
+P177,Ecuador,Ciberseguridad,Bajo,2022,158838,8,5,13,0
+P178,Ecuador,Inteligencia Artificial,Medio,2021,365513,13,7,23,1
+P179,Peru,Internet de las Cosas,Alto,2020,642086,32,8,25,5
+P180,Chile,Inteligencia Artificial,Bajo,2018,180610,7,6,15,2
+P181,Bolivia,Inteligencia Artificial,Medio,2022,370875,12,7,23,4
+P182,Bolivia,Biotecnologia,Alto,2021,454264,28,9,40,8
+P183,Colombia,Inteligencia Artificial,Alto,2023,629511,32,10,35,5
+P184,Chile,Ciberseguridad,Medio,2020,377968,9,7,15,3
+P185,Mexico,Internet de las Cosas,Bajo,2021,137243,5,4,13,0
+P186,Paraguay,Biotecnologia,Medio,2020,371980,15,6,23,1
+P187,Chile,Internet de las Cosas,Medio,2023,286108,11,9,15,4
+P188,Bolivia,Ciencia de Datos,Alto,2020,561934,23,11,34,9
+P189,Ecuador,Biotecnologia,Alto,2019,481235,20,12,27,7
+P190,Bolivia,Internet de las Cosas,Alto,2023,576561,22,14,28,4
+P191,Colombia,Internet de las Cosas,Alto,2023,629466,19,14,35,8
+P192,Argentina,Ciberseguridad,Bajo,2020,198617,8,6,11,2
+P193,Argentina,Ciencia de Datos,Medio,2019,296427,16,8,18,4
+P194,Bolivia,Internet de las Cosas,Medio,2019,252349,11,7,14,4
+P195,Peru,Internet de las Cosas,Alto,2023,670485,21,12,26,9
+P196,Colombia,Ciencia de Datos,Medio,2022,238626,15,5,17,4
+P197,Peru,Inteligencia Artificial,Medio,2018,303928,17,7,17,4
+P198,Mexico,Ciencia de Datos,Alto,2018,567082,21,13,28,4
+P199,Guatemala,Ciencia de Datos,Medio,2023,236383,16,8,23,1
+P200,Mexico,Inteligencia Artificial,Medio,2019,239195,17,9,22,4
+P201,Mexico,Ciencia de Datos,Alto,2020,463883,19,11,37,8
+P202,Paraguay,Ciberseguridad,Alto,2018,662054,35,8,40,7
+P203,Argentina,Biotecnologia,Medio,2021,200410,14,6,23,4
+P204,Colombia,Inteligencia Artificial,Bajo,2020,108870,7,3,14,1
+P205,Guatemala,Ciberseguridad,Medio,2020,395904,9,7,15,3
+P206,Argentina,Inteligencia Artificial,Bajo,2023,199179,5,4,8,1
+P207,Bolivia,Ciencia de Datos,Bajo,2019,189742,6,6,10,0
+P208,Mexico,Ciberseguridad,Alto,2020,505691,19,11,25,5
+P209,Chile,Internet de las Cosas,Medio,2022,324098,13,5,24,2
+P210,Chile,Ciencia de Datos,Alto,2023,574024,26,9,35,6
+P211,Brasil,Ciberseguridad,Medio,2020,248973,16,8,19,3
+P212,Mexico,Ciberseguridad,Alto,2021,715859,23,12,34,3
+P213,Mexico,Ciencia de Datos,Bajo,2020,140173,6,6,10,2
+P214,Ecuador,Ciencia de Datos,Medio,2018,390530,14,9,20,3
+P215,Guatemala,Inteligencia Artificial,Bajo,2023,153242,5,4,8,0
+P216,Paraguay,Ciberseguridad,Alto,2019,435249,25,13,35,6
+P217,Paraguay,Inteligencia Artificial,Bajo,2019,189006,6,5,13,1
+P218,Mexico,Internet de las Cosas,Alto,2022,592387,30,13,32,4
+P219,Mexico,Inteligencia Artificial,Bajo,2019,165410,7,6,9,1
+P220,Chile,Ciberseguridad,Alto,2022,549724,33,11,27,4
+P221,Mexico,Ciberseguridad,Alto,2023,633366,20,13,35,8
+P222,Mexico,Internet de las Cosas,Bajo,2020,139315,4,4,13,2
+P223,Argentina,Inteligencia Artificial,Alto,2019,524117,33,8,35,7
+P224,Paraguay,Ciencia de Datos,Medio,2022,234018,10,5,18,4
+P225,Ecuador,Internet de las Cosas,Medio,2021,350706,10,6,19,1
+P226,Ecuador,Ciberseguridad,Bajo,2022,145156,4,4,10,1
+P227,Bolivia,Inteligencia Artificial,Alto,2022,480224,27,10,29,5
+P228,Argentina,Ciencia de Datos,Bajo,2020,110336,5,4,12,0
+P229,Chile,Internet de las Cosas,Bajo,2018,165873,8,4,10,0
+P230,Paraguay,Internet de las Cosas,Medio,2022,210798,9,5,14,3
+P231,Argentina,Internet de las Cosas,Medio,2022,367507,9,8,24,3
+P232,Chile,Ciberseguridad,Alto,2023,612909,27,15,26,8
+P233,Guatemala,Biotecnologia,Medio,2021,326943,16,6,19,2
+P234,Peru,Ciencia de Datos,Bajo,2020,152260,4,5,9,1
+P235,Argentina,Ciberseguridad,Alto,2020,635717,25,10,27,3
+P236,Chile,Ciberseguridad,Bajo,2021,132541,4,5,13,0
+P237,Colombia,Ciberseguridad,Bajo,2021,165373,5,6,8,0
+P238,Brasil,Internet de las Cosas,Medio,2019,256398,14,5,14,3
+P239,Ecuador,Internet de las Cosas,Bajo,2023,161680,5,3,9,1
+P240,Colombia,Ciencia de Datos,Bajo,2020,152855,5,3,14,0
+P241,Paraguay,Internet de las Cosas,Alto,2020,690048,27,9,36,7
+P242,Ecuador,Internet de las Cosas,Medio,2022,378362,10,6,15,4
+P243,Peru,Ciencia de Datos,Bajo,2020,198954,4,4,14,2
+P244,Guatemala,Inteligencia Artificial,Alto,2019,574609,33,15,28,7
+P245,Bolivia,Biotecnologia,Medio,2022,283500,11,8,23,3
+P246,Paraguay,Ciencia de Datos,Bajo,2022,169774,6,5,15,0
+P247,Peru,Ciencia de Datos,Bajo,2018,154596,7,5,8,2
+P248,Ecuador,Ciencia de Datos,Bajo,2022,175711,4,3,15,0
+P249,Bolivia,Internet de las Cosas,Medio,2019,378448,12,5,23,1
+P250,Argentina,Inteligencia Artificial,Medio,2020,309780,11,8,25,2
+P251,Brasil,Internet de las Cosas,Bajo,2021,196447,8,3,10,2
+P252,Argentina,Internet de las Cosas,Medio,2023,325402,17,8,19,2
+P253,Ecuador,Internet de las Cosas,Medio,2022,292874,13,9,21,2
+P254,Argentina,Ciencia de Datos,Bajo,2020,129473,5,5,11,2
+P255,Ecuador,Ciencia de Datos,Medio,2020,346928,13,7,15,4
+P256,Brasil,Ciencia de Datos,Alto,2020,422054,27,9,35,6
+P257,Chile,Ciberseguridad,Alto,2019,682369,26,12,28,3
+P258,Paraguay,Internet de las Cosas,Alto,2019,426615,34,11,31,3
+P259,Mexico,Ciberseguridad,Medio,2023,323837,10,6,14,2
+P260,Brasil,Ciberseguridad,Medio,2023,252286,13,7,18,1
+P261,Mexico,Internet de las Cosas,Alto,2022,419555,23,14,29,3
+P262,Brasil,Ciberseguridad,Alto,2023,551764,19,8,33,7
+P263,Paraguay,Inteligencia Artificial,Medio,2020,319104,17,9,21,2
+P264,Bolivia,Ciberseguridad,Medio,2019,229529,14,6,25,4
+P265,Chile,Biotecnologia,Alto,2023,576743,27,11,29,7
+P266,Brasil,Ciberseguridad,Bajo,2020,111368,6,3,10,0
+P267,Ecuador,Ciencia de Datos,Alto,2018,536726,30,11,38,9
+P268,Chile,Ciencia de Datos,Medio,2022,389499,9,7,24,3
+P269,Argentina,Inteligencia Artificial,Bajo,2018,161000,5,4,14,2
+P270,Bolivia,Ciencia de Datos,Bajo,2018,183717,5,5,11,0
+P271,Colombia,Ciberseguridad,Alto,2021,717581,29,14,41,6
+P272,Bolivia,Biotecnologia,Alto,2023,712378,20,15,40,8
+P273,Peru,Inteligencia Artificial,Bajo,2018,108094,7,4,10,0
+P274,Peru,Internet de las Cosas,Medio,2018,378335,12,9,21,1
+P275,Bolivia,Ciberseguridad,Alto,2021,469176,34,14,38,7
+P276,Guatemala,Internet de las Cosas,Medio,2023,280784,9,8,18,1
+P277,Argentina,Internet de las Cosas,Alto,2018,622139,29,9,41,3
+P278,Mexico,Ciberseguridad,Alto,2020,614364,23,10,37,5
+P279,Brasil,Ciberseguridad,Medio,2021,221037,17,6,24,3
+P280,Mexico,Biotecnologia,Bajo,2021,169316,4,4,8,0
+P281,Chile,Ciberseguridad,Bajo,2023,171361,6,6,11,0
+P282,Ecuador,Ciencia de Datos,Alto,2020,498818,21,8,37,7
+P283,Guatemala,Biotecnologia,Alto,2018,452898,19,15,25,4
+P284,Guatemala,Ciberseguridad,Medio,2019,341494,12,5,16,3
+P285,Argentina,Internet de las Cosas,Medio,2022,356740,14,6,18,2
+P286,Bolivia,Biotecnologia,Medio,2020,272129,9,9,23,2
+P287,Brasil,Internet de las Cosas,Medio,2018,290286,15,9,19,4
+P288,Brasil,Biotecnologia,Medio,2021,248202,17,8,17,2
+P289,Chile,Biotecnologia,Medio,2018,347426,15,8,22,2
+P290,Brasil,Biotecnologia,Medio,2019,286576,10,8,19,1
+P291,Bolivia,Biotecnologia,Alto,2020,597744,19,9,30,9
+P292,Paraguay,Internet de las Cosas,Alto,2021,509518,28,12,24,4
+P293,Argentina,Inteligencia Artificial,Bajo,2021,131797,8,4,14,0
+P294,Bolivia,Ciencia de Datos,Medio,2021,322224,17,7,18,3
+P295,Peru,Internet de las Cosas,Medio,2021,225849,16,7,17,3
+P296,Peru,Ciberseguridad,Alto,2022,516011,22,8,32,7
+P297,Paraguay,Internet de las Cosas,Bajo,2021,138691,4,4,13,0
+P298,Brasil,Internet de las Cosas,Alto,2021,688695,28,12,39,8
+P299,Ecuador,Ciberseguridad,Alto,2023,584641,23,10,41,6
+P300,Colombia,Internet de las Cosas,Bajo,2018,168674,3,3,8,0
