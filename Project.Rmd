@@ -6,6 +6,119 @@ participants: "José Arturo Monterroso Muñoz, José Carlos Soberanis Ramírez"
 
 
 ```{r}
-plot(cars)
+#Librerias
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
 ```
 
+Parte I - Conociendo los datos
+
+```{r}
+#Archivo CSV
+proyectos = read_csv("projects.csv")
+
+#Primeras filas y estructura del dataset
+head(proyectos)
+str(proyectos)
+```
+
+Parte II - Creacion y uso de listas
+
+```{r}
+#Lista de paises unicos
+lista_paises = unique(proyectos$pais)
+
+#Lista de areas tecnologicas unicas
+lista_areas = unique(proyectos$area_tecnologica)
+
+#Estadisticas iniciales del dataframe
+estadisticas_iniciales = data.frame(
+  variable = c("presupuesto_usd", "publicaciones", "investigadores", "duracion_meses", "patentes"),
+  promedio = c(mean(proyectos$presupuesto_usd, na.rm = TRUE), mean(proyectos$publicaciones, na.rm = TRUE), mean(proyectos$investigadores, na.rm = TRUE), mean(proyectos$duracion_meses, na.rm = TRUE), mean(proyectos$patentes, na.rm = TRUE)),
+  
+  minimo = c(min(proyectos$presupuesto_usd, na.rm = TRUE), min(proyectos$publicaciones, na.rm = TRUE), min(proyectos$investigadores, na.rm = TRUE), min(proyectos$duracion_meses, na.rm = TRUE), min(proyectos$patentes, na.rm = TRUE)),
+  
+  maximo = c(max(proyectos$presupuesto_usd, na.rm = TRUE), max(proyectos$publicaciones, na.rm = TRUE),max(proyectos$investigadores, na.rm = TRUE), max(proyectos$duracion_meses, na.rm = TRUE), max(proyectos$patentes, na.rm = TRUE))
+  
+)
+
+#Subconjuntos de proyectos agrupados por area tecnologica
+subconjuntos_area = split(proyectos, proyectos$area_tecnologica)
+
+#Construccion de la lista principal
+lista_proyectos = list(
+  dataframe_original = proyectos,
+  paises = lista_paises,
+  areas_tecnologicas = lista_areas,
+  estadisticas_iniciales= estadisticas_iniciales,
+  subconjuntos_por_area = subconjuntos_area
+)
+
+#Verificar estructura de la lista
+str(lista_proyectos, max.level = 1)
+```
+
+```{r}
+#lapply que calcula promedio de presupuesto, publicaciones e investigadores por area tecnologica
+metricas_por_area = lapply(lista_proyectos$subconjuntos_por_area, function(subset_area) {
+  list(promedio_presupuesto = mean(subset_area$presupuesto_usd, na.rm = TRUE), promedio_publicaciones = mean(subset_area$publicaciones, na.rm = TRUE), promedio_investigadores = mean(subset_area$investigadores, na.rm = TRUE))
+})
+
+metricas_por_area
+```
+
+```{r}
+#Lista de indicadores por area tecnologica
+indicadores_area = lapply(lista_areas, function(area) {
+  subset_area = proyectos[proyectos$area_tecnologica == area, ]
+  list(area_tecnologica = area, num_proyectos= nrow(subset_area), presupuesto_promedio = mean(subset_area$presupuesto_usd, na.rm = TRUE), productividad_promedio = mean(subset_area$publicaciones / subset_area$investigadores, na.rm = TRUE))
+})
+
+names(indicadores_area) = lista_areas
+indicadores_area
+```
+
+Parte III - Manipulación de datos con dplyr
+
+```{r}
+#Nuevas variables con mutate
+proyectos = proyectos %>%
+  mutate(productividad = (publicaciones/investigadores), intensidad_investigacion = (investigadores/duracion_meses), indice_resultados = ((publicaciones + (2 * patentes))/presupuesto_usd))
+
+head(proyectos)
+
+#Presupuesto promedio por pais y area tecnologica
+presupuesto_pais_area = proyectos %>% group_by(pais, area_tecnologica) %>%
+  summarize(presupuesto_promedio = mean(presupuesto_usd, na.rm = TRUE), .groups = "drop")
+
+print(presupuesto_pais_area)
+
+#Numero de proyectos por año
+proyectos_por_anio = proyectos %>% group_by(anio) %>%
+  summarize(num_proyectos = n())
+
+print(proyectos_por_anio)
+
+#Productividad promedio por area tecnologica y nivel de impacto
+productividad_area_impacto = proyectos %>% group_by(area_tecnologica, nivel_impacto) %>%
+  summarize(productividad_promedio = mean(productividad, na.rm = TRUE), .groups = "drop")
+
+print(productividad_area_impacto)
+
+##Generando rankings utilizando arrange
+#Top 10 proyectos con mayor eficiencia (indice_resultados)
+top_eficiencia = proyectos %>%
+  arrange(desc(indice_resultados)) %>%
+  slice_head(n = 10)
+
+print(top_eficiencia)
+
+#Top 5 paises con mayor productividad promedio
+top_productividad = proyectos %>% group_by(pais) %>%
+  summarize(productividad_promedio = mean(productividad, na.rm = TRUE)) %>%
+  arrange(desc(productividad_promedio)) %>%
+  slice_head(n = 5)
+
+print(top_productividad)
+```
