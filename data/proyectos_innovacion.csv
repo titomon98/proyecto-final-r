@@ -1,0 +1,401 @@
+id_proyecto,pais,area_tecnologica,presupuesto_usd,duracion_meses,investigadores,publicaciones,patentes,impacto,anio_inicio
+1,Costa Rica,Inteligencia Artificial,210775,7,16,10,0,Medio,2019
+2,Chile,Inteligencia Artificial,1107913,25,10,4,0,Bajo,2023
+3,Paraguay,Energia Renovable,620715,6,14,6,1,Medio,2024
+4,Panama,Nanotecnologia,1613299,42,16,5,0,Medio,2019
+5,Peru,Salud Digital,1422249,14,11,1,2,Alto,2019
+6,Costa Rica,Ciberseguridad,414167,22,17,4,0,Bajo,2023
+7,Uruguay,Biotecnologia,1445385,14,8,4,0,Medio,2019
+8,Colombia,Salud Digital,1728651,16,18,8,2,Bajo,2020
+9,Costa Rica,Biotecnologia,737281,20,24,3,0,Medio,2019
+10,Paraguay,Energia Renovable,1394027,29,22,8,0,Medio,2022
+11,Paraguay,Biotecnologia,470571,43,23,7,0,Alto,2024
+12,Panama,Inteligencia Artificial,1225592,40,8,3,2,Bajo,2019
+13,Peru,Ciberseguridad,841267,35,15,5,1,Bajo,2022
+14,Chile,Agrotecnologia,1643023,36,16,3,2,Medio,2019
+15,Panama,Biotecnologia,547562,10,22,6,1,Bajo,2019
+16,Panama,Salud Digital,1801541,19,8,4,0,Bajo,2023
+17,Colombia,Inteligencia Artificial,433934,16,10,6,0,Medio,2020
+18,Argentina,Agrotecnologia,1990624,14,20,7,1,Bajo,2024
+19,Peru,Ciberseguridad,1963760,39,17,3,4,Bajo,2020
+20,Mexico,Agrotecnologia,367428,17,9,3,1,Medio,2021
+21,Panama,Inteligencia Artificial,1417763,40,19,5,2,Medio,2023
+22,Bolivia,Nanotecnologia,1092892,40,24,1,2,Bajo,2023
+23,Argentina,Nanotecnologia,740907,6,19,6,1,Bajo,2020
+24,Mexico,Agrotecnologia,1982015,45,21,4,0,Medio,2023
+25,Bolivia,Energia Renovable,132844,27,8,3,0,Bajo,2020
+26,Peru,Salud Digital,1650396,34,4,5,0,Medio,2023
+27,Guatemala,Salud Digital,1263997,13,19,7,1,Bajo,2019
+28,Bolivia,Agrotecnologia,172402,16,11,7,2,Medio,2020
+29,Uruguay,Biotecnologia,1216588,46,8,5,1,Medio,2020
+30,Argentina,Biotecnologia,488661,42,18,9,1,Medio,2022
+31,Bolivia,Salud Digital,448929,19,15,7,0,Alto,2023
+32,Ecuador,Salud Digital,630466,35,4,2,1,Medio,2023
+33,Guatemala,Nanotecnologia,623695,40,13,10,0,Bajo,2020
+34,Paraguay,Energia Renovable,513556,26,14,4,0,Bajo,2019
+35,Paraguay,Inteligencia Artificial,625278,42,3,7,0,Medio,2019
+36,Uruguay,Biotecnologia,1043176,10,4,5,1,Bajo,2024
+37,Bolivia,Salud Digital,1228049,24,6,7,3,Bajo,2019
+38,Bolivia,Nanotecnologia,1033049,19,12,8,1,Medio,2023
+39,Colombia,Ciberseguridad,528007,31,9,5,3,Medio,2022
+40,Bolivia,Nanotecnologia,894573,9,24,4,0,Medio,2020
+41,Costa Rica,Biotecnologia,1515585,30,24,6,1,Medio,2021
+42,Chile,Biotecnologia,1417290,47,13,10,0,Medio,2022
+43,Ecuador,Nanotecnologia,1324732,30,8,4,1,Bajo,2021
+44,Colombia,Inteligencia Artificial,1267540,23,16,4,0,Alto,2022
+45,Peru,Agrotecnologia,575303,45,18,3,0,Bajo,2019
+46,Colombia,Biotecnologia,1160389,13,5,5,0,Medio,2023
+47,Costa Rica,Nanotecnologia,77712,44,23,2,1,Medio,2021
+48,Peru,Salud Digital,1723361,45,14,8,2,Medio,2022
+49,Ecuador,Nanotecnologia,1865790,19,19,6,3,Medio,2023
+50,Costa Rica,Energia Renovable,162816,37,2,6,2,Bajo,2021
+51,Mexico,Agrotecnologia,1227354,43,17,4,0,Medio,2020
+52,Chile,Ciberseguridad,1685156,38,14,6,1,Medio,2022
+53,Ecuador,Inteligencia Artificial,335977,28,11,3,1,Medio,2020
+54,Bolivia,Ciberseguridad,185230,20,13,4,2,Alto,2019
+55,Mexico,Agrotecnologia,1816616,38,3,4,0,Medio,2020
+56,Uruguay,Agrotecnologia,856741,30,24,5,2,Bajo,2020
+57,Ecuador,Agrotecnologia,319114,22,4,2,0,Bajo,2024
+58,Uruguay,Ciberseguridad,1433194,38,11,3,0,Medio,2022
+59,Peru,Salud Digital,1054208,7,3,7,0,Medio,2019
+60,Mexico,Agrotecnologia,1931548,19,24,8,1,Medio,2020
+61,Chile,Nanotecnologia,201456,45,14,5,1,Medio,2023
+62,Bolivia,Ciberseguridad,1903025,45,14,1,1,Alto,2021
+63,Bolivia,Agrotecnologia,912312,44,19,7,0,Alto,2020
+64,Costa Rica,Nanotecnologia,1204146,11,4,7,2,Alto,2019
+65,Bolivia,Salud Digital,320846,11,8,3,2,Bajo,2020
+66,Panama,Energia Renovable,50404,8,15,7,0,Medio,2021
+67,Colombia,Salud Digital,1008447,12,21,2,2,Bajo,2019
+68,Guatemala,Agrotecnologia,753286,13,18,4,2,Bajo,2022
+69,Chile,Ciberseguridad,1373483,47,22,5,2,Medio,2019
+70,Mexico,Biotecnologia,1772320,20,13,6,0,Medio,2022
+71,Panama,Agrotecnologia,765460,34,17,3,3,Bajo,2019
+72,Chile,Biotecnologia,934574,38,13,8,2,Bajo,2021
+73,Mexico,Nanotecnologia,1763796,35,16,4,0,Bajo,2021
+74,Argentina,Energia Renovable,285365,44,11,7,0,Alto,2019
+75,Argentina,Inteligencia Artificial,392786,32,8,2,0,Bajo,2020
+76,Uruguay,Salud Digital,1149188,41,21,5,1,Bajo,2021
+77,Chile,Energia Renovable,860006,34,6,7,1,Medio,2022
+78,Argentina,Agrotecnologia,1908532,43,2,5,0,Medio,2022
+79,Mexico,Biotecnologia,250244,38,18,3,2,Alto,2023
+80,Uruguay,Salud Digital,1895924,42,4,7,0,Bajo,2024
+81,Bolivia,Biotecnologia,1103385,32,14,4,1,Medio,2024
+82,Mexico,Ciberseguridad,213273,38,15,4,0,Medio,2024
+83,Uruguay,Biotecnologia,1807266,9,19,3,1,Alto,2022
+84,Chile,Ciberseguridad,1243104,27,5,8,1,Medio,2023
+85,Panama,Nanotecnologia,1605540,7,19,5,0,Alto,2024
+86,Costa Rica,Salud Digital,1548189,15,6,3,0,Bajo,2024
+87,Bolivia,Salud Digital,1137341,10,17,5,0,Medio,2019
+88,Ecuador,Inteligencia Artificial,1930114,15,2,3,0,Medio,2019
+89,Panama,Agrotecnologia,1414652,38,22,4,0,Alto,2019
+90,Peru,Ciberseguridad,984604,43,15,2,1,Bajo,2020
+91,Mexico,Inteligencia Artificial,893523,18,16,4,2,Bajo,2024
+92,Peru,Biotecnologia,596237,36,10,3,0,Medio,2020
+93,Panama,Biotecnologia,1299728,41,16,7,1,Bajo,2023
+94,Uruguay,Inteligencia Artificial,1398464,29,18,4,0,Bajo,2022
+95,Ecuador,Salud Digital,750903,20,5,5,2,Alto,2024
+96,Bolivia,Biotecnologia,1993327,34,13,4,0,Medio,2022
+97,Bolivia,Nanotecnologia,142193,13,6,5,1,Medio,2019
+98,Bolivia,Nanotecnologia,1134763,10,6,4,1,Medio,2024
+99,Ecuador,Inteligencia Artificial,555950,34,12,6,3,Medio,2021
+100,Guatemala,Ciberseguridad,1236887,9,7,9,1,Bajo,2020
+101,Ecuador,Ciberseguridad,960886,17,8,3,0,Bajo,2020
+102,Costa Rica,Inteligencia Artificial,850921,7,15,8,0,Medio,2024
+103,Ecuador,Ciberseguridad,558153,32,12,5,2,Medio,2019
+104,Panama,Salud Digital,1287665,36,14,1,0,Medio,2020
+105,Guatemala,Salud Digital,636165,41,3,3,1,Bajo,2019
+106,Bolivia,Ciberseguridad,1534917,41,8,5,1,Medio,2023
+107,Panama,Nanotecnologia,1410642,31,21,4,1,Alto,2022
+108,Panama,Ciberseguridad,668362,32,5,6,1,Alto,2021
+109,Paraguay,Salud Digital,737409,10,9,5,0,Alto,2022
+110,Colombia,Energia Renovable,611419,25,21,5,0,Medio,2022
+111,Guatemala,Agrotecnologia,690053,16,23,4,0,Medio,2023
+112,Panama,Biotecnologia,910395,15,22,9,2,Medio,2020
+113,Colombia,Energia Renovable,1729748,45,20,6,2,Bajo,2021
+114,Colombia,Ciberseguridad,175917,43,14,7,1,Medio,2020
+115,Guatemala,Nanotecnologia,860717,11,15,3,3,Medio,2024
+116,Paraguay,Inteligencia Artificial,1398346,13,11,2,1,Bajo,2022
+117,Peru,Ciberseguridad,748168,28,12,3,0,Medio,2024
+118,Uruguay,Nanotecnologia,531680,31,3,2,0,Alto,2019
+119,Costa Rica,Agrotecnologia,1021375,17,10,7,0,Bajo,2022
+120,Uruguay,Ciberseguridad,331342,31,18,2,0,Alto,2020
+121,Ecuador,Salud Digital,589542,18,4,5,2,Bajo,2022
+122,Bolivia,Inteligencia Artificial,1142814,45,7,5,0,Medio,2019
+123,Costa Rica,Nanotecnologia,51252,23,6,7,0,Medio,2023
+124,Ecuador,Nanotecnologia,876196,30,6,5,0,Medio,2024
+125,Panama,Nanotecnologia,914141,38,23,6,0,Alto,2024
+126,Bolivia,Agrotecnologia,1584026,45,16,7,1,Alto,2020
+127,Mexico,Ciberseguridad,365826,17,24,3,1,Medio,2022
+128,Guatemala,Agrotecnologia,1420214,41,18,6,4,Bajo,2020
+129,Costa Rica,Biotecnologia,655605,9,10,8,0,Alto,2023
+130,Costa Rica,Biotecnologia,377359,10,4,3,1,Bajo,2022
+131,Panama,Ciberseguridad,1701451,42,21,6,1,Alto,2022
+132,Peru,Salud Digital,56949,13,18,5,0,Medio,2020
+133,Colombia,Agrotecnologia,813185,47,11,3,1,Bajo,2020
+134,Bolivia,Inteligencia Artificial,367537,33,4,4,1,Medio,2019
+135,Panama,Nanotecnologia,1827489,36,19,6,1,Bajo,2023
+136,Argentina,Nanotecnologia,712301,14,19,6,0,Bajo,2019
+137,Paraguay,Ciberseguridad,600222,34,18,7,1,Medio,2024
+138,Colombia,Salud Digital,830722,19,4,6,0,Bajo,2022
+139,Guatemala,Biotecnologia,1553678,45,4,5,0,Bajo,2020
+140,Colombia,Biotecnologia,1436465,46,7,2,0,Bajo,2022
+141,Peru,Nanotecnologia,526467,27,14,5,0,Medio,2022
+142,Colombia,Ciberseguridad,406600,16,16,9,0,Bajo,2021
+143,Guatemala,Agrotecnologia,1414133,28,10,3,0,Medio,2024
+144,Peru,Biotecnologia,1024304,6,5,9,0,Bajo,2021
+145,Uruguay,Agrotecnologia,1982247,42,15,2,1,Alto,2022
+146,Costa Rica,Salud Digital,1403038,26,6,1,0,Alto,2020
+147,Costa Rica,Biotecnologia,300875,31,3,4,0,Bajo,2022
+148,Paraguay,Biotecnologia,513389,41,12,3,3,Medio,2024
+149,Ecuador,Energia Renovable,120390,28,10,4,1,Alto,2021
+150,Uruguay,Biotecnologia,757689,6,4,5,1,Alto,2020
+151,Uruguay,Inteligencia Artificial,303490,45,10,1,0,Medio,2022
+152,Bolivia,Ciberseguridad,1665952,20,4,3,0,Bajo,2023
+153,Colombia,Ciberseguridad,1346516,26,3,5,2,Medio,2024
+154,Costa Rica,Agrotecnologia,415340,14,13,3,0,Medio,2024
+155,Guatemala,Salud Digital,483027,14,11,12,1,Medio,2023
+156,Chile,Biotecnologia,1606617,15,10,2,0,Medio,2022
+157,Chile,Inteligencia Artificial,1416199,31,16,3,2,Alto,2024
+158,Peru,Agrotecnologia,1315040,46,9,4,1,Alto,2020
+159,Costa Rica,Energia Renovable,1841305,40,6,9,1,Bajo,2022
+160,Costa Rica,Agrotecnologia,1609312,30,12,5,0,Bajo,2022
+161,Paraguay,Agrotecnologia,1904971,31,3,3,0,Bajo,2021
+162,Chile,Biotecnologia,1415843,16,16,3,0,Alto,2024
+163,Costa Rica,Energia Renovable,700199,43,7,4,0,Medio,2024
+164,Paraguay,Agrotecnologia,1987476,7,9,4,3,Medio,2023
+165,Colombia,Inteligencia Artificial,273777,12,6,7,1,Medio,2021
+166,Argentina,Inteligencia Artificial,909909,23,17,6,0,Medio,2021
+167,Bolivia,Ciberseguridad,1899396,32,19,3,1,Medio,2024
+168,Mexico,Energia Renovable,1104145,39,7,6,0,Medio,2022
+169,Uruguay,Energia Renovable,644124,32,6,6,0,Medio,2021
+170,Ecuador,Ciberseguridad,678861,22,17,4,1,Alto,2023
+171,Peru,Agrotecnologia,479802,29,14,7,1,Alto,2021
+172,Argentina,Energia Renovable,308090,30,6,4,0,Alto,2023
+173,Bolivia,Inteligencia Artificial,1765951,12,14,7,0,Medio,2021
+174,Bolivia,Inteligencia Artificial,1143578,11,18,3,0,Medio,2023
+175,Bolivia,Biotecnologia,821954,29,19,4,2,Medio,2021
+176,Bolivia,Energia Renovable,711614,38,9,7,2,Alto,2021
+177,Chile,Agrotecnologia,729574,34,14,8,1,Bajo,2020
+178,Paraguay,Ciberseguridad,548870,27,20,2,1,Medio,2023
+179,Uruguay,Ciberseguridad,1310367,31,4,9,1,Bajo,2023
+180,Costa Rica,Agrotecnologia,252846,33,9,6,1,Medio,2023
+181,Bolivia,Salud Digital,1760026,26,3,4,0,Medio,2019
+182,Ecuador,Nanotecnologia,716997,12,9,7,0,Medio,2021
+183,Costa Rica,Biotecnologia,1776351,22,14,2,1,Bajo,2023
+184,Guatemala,Ciberseguridad,1122647,25,14,2,0,Medio,2024
+185,Guatemala,Energia Renovable,1681107,46,2,3,1,Alto,2019
+186,Ecuador,Biotecnologia,1078455,25,7,5,0,Bajo,2020
+187,Paraguay,Energia Renovable,962259,27,20,7,3,Medio,2023
+188,Ecuador,Salud Digital,1993223,33,17,4,1,Medio,2023
+189,Chile,Inteligencia Artificial,222312,45,9,4,0,Alto,2019
+190,Ecuador,Biotecnologia,1355794,12,2,5,0,Bajo,2021
+191,Colombia,Ciberseguridad,1313455,6,17,5,1,Alto,2024
+192,Costa Rica,Biotecnologia,1462290,37,10,4,0,Medio,2020
+193,Argentina,Biotecnologia,476650,18,14,5,3,Alto,2023
+194,Panama,Biotecnologia,381868,35,12,6,0,Alto,2021
+195,Paraguay,Nanotecnologia,1960705,28,14,5,1,Bajo,2024
+196,Ecuador,Biotecnologia,1651596,24,22,7,0,Bajo,2024
+197,Peru,Energia Renovable,1744329,37,11,8,2,Bajo,2020
+198,Guatemala,Inteligencia Artificial,978818,35,5,4,2,Medio,2022
+199,Colombia,Salud Digital,1515746,34,7,5,1,Bajo,2024
+200,Uruguay,Agrotecnologia,107108,34,8,6,0,Bajo,2022
+201,Bolivia,Biotecnologia,1579297,35,6,9,1,Medio,2024
+202,Panama,Ciberseguridad,1209771,21,12,6,1,Bajo,2020
+203,Paraguay,Biotecnologia,1988089,45,14,0,1,Bajo,2019
+204,Argentina,Ciberseguridad,1135244,24,20,4,0,Medio,2020
+205,Panama,Energia Renovable,335205,23,24,2,0,Bajo,2020
+206,Ecuador,Ciberseguridad,1439972,6,11,6,3,Medio,2019
+207,Chile,Agrotecnologia,1662613,19,11,9,3,Medio,2019
+208,Guatemala,Inteligencia Artificial,180560,7,12,0,2,Medio,2021
+209,Guatemala,Ciberseguridad,1097172,33,22,3,2,Alto,2024
+210,Uruguay,Ciberseguridad,1465400,35,8,0,0,Medio,2021
+211,Chile,Inteligencia Artificial,197979,43,19,8,0,Medio,2019
+212,Bolivia,Agrotecnologia,1248425,9,5,2,2,Medio,2022
+213,Costa Rica,Biotecnologia,798589,6,3,4,2,Alto,2022
+214,Mexico,Ciberseguridad,101745,13,15,4,5,Alto,2020
+215,Colombia,Inteligencia Artificial,1469184,34,14,5,0,Alto,2023
+216,Guatemala,Energia Renovable,141865,44,13,4,2,Medio,2020
+217,Peru,Inteligencia Artificial,1997436,8,8,3,0,Bajo,2020
+218,Guatemala,Energia Renovable,1311466,37,3,2,1,Bajo,2023
+219,Panama,Agrotecnologia,1122200,15,14,8,1,Bajo,2024
+220,Guatemala,Biotecnologia,73321,15,15,4,0,Alto,2019
+221,Paraguay,Inteligencia Artificial,453704,24,18,5,1,Medio,2022
+222,Guatemala,Salud Digital,859006,39,10,5,3,Medio,2020
+223,Mexico,Salud Digital,1272869,38,18,7,0,Medio,2023
+224,Mexico,Nanotecnologia,977982,28,9,5,2,Alto,2021
+225,Bolivia,Ciberseguridad,1881991,33,3,8,1,Bajo,2020
+226,Argentina,Agrotecnologia,236717,37,14,5,2,Bajo,2022
+227,Costa Rica,Inteligencia Artificial,1078202,12,4,4,0,Medio,2019
+228,Peru,Salud Digital,1479551,34,17,6,1,Medio,2020
+229,Guatemala,Ciberseguridad,233868,13,7,5,0,Medio,2020
+230,Guatemala,Salud Digital,709792,6,20,1,1,Alto,2024
+231,Colombia,Inteligencia Artificial,145257,8,8,7,0,Bajo,2023
+232,Mexico,Energia Renovable,638579,29,11,4,4,Medio,2021
+233,Peru,Inteligencia Artificial,260176,28,10,4,1,Medio,2021
+234,Bolivia,Nanotecnologia,240471,13,3,4,2,Bajo,2019
+235,Uruguay,Inteligencia Artificial,964032,42,16,6,1,Alto,2022
+236,Argentina,Inteligencia Artificial,522930,8,6,6,0,Medio,2019
+237,Costa Rica,Nanotecnologia,1935436,38,23,4,0,Medio,2020
+238,Chile,Agrotecnologia,1841667,33,5,5,2,Alto,2020
+239,Costa Rica,Inteligencia Artificial,1617438,13,21,4,0,Medio,2021
+240,Paraguay,Nanotecnologia,1574350,39,5,4,0,Bajo,2022
+241,Panama,Ciberseguridad,967559,40,19,8,2,Medio,2023
+242,Paraguay,Energia Renovable,685605,37,5,4,1,Medio,2022
+243,Guatemala,Energia Renovable,1238365,29,18,7,2,Bajo,2020
+244,Argentina,Inteligencia Artificial,439593,19,13,7,1,Bajo,2023
+245,Panama,Agrotecnologia,865131,37,23,9,2,Medio,2022
+246,Peru,Agrotecnologia,1172262,21,18,6,1,Medio,2022
+247,Chile,Ciberseguridad,117661,9,11,5,1,Bajo,2023
+248,Mexico,Inteligencia Artificial,618535,42,23,10,1,Medio,2020
+249,Argentina,Energia Renovable,1343697,26,2,8,3,Alto,2022
+250,Argentina,Agrotecnologia,1770684,19,23,5,2,Bajo,2023
+251,Paraguay,Inteligencia Artificial,1465833,36,19,6,0,Bajo,2024
+252,Guatemala,Salud Digital,316765,23,19,1,1,Medio,2024
+253,Ecuador,Agrotecnologia,1244682,12,15,10,0,Bajo,2020
+254,Bolivia,Nanotecnologia,1357506,15,16,10,0,Medio,2023
+255,Paraguay,Salud Digital,710482,12,13,3,0,Bajo,2024
+256,Argentina,Agrotecnologia,854462,38,5,6,4,Medio,2023
+257,Colombia,Energia Renovable,919270,28,4,8,0,Medio,2022
+258,Chile,Biotecnologia,1969725,26,21,1,0,Medio,2020
+259,Bolivia,Salud Digital,498874,24,13,7,0,Alto,2024
+260,Paraguay,Ciberseguridad,1661502,24,8,6,2,Alto,2022
+261,Chile,Ciberseguridad,903499,41,12,5,1,Medio,2019
+262,Colombia,Energia Renovable,1073980,34,2,5,1,Medio,2019
+263,Uruguay,Agrotecnologia,168033,23,7,8,2,Bajo,2020
+264,Colombia,Inteligencia Artificial,680265,7,16,2,1,Medio,2024
+265,Colombia,Agrotecnologia,663157,6,16,5,4,Bajo,2024
+266,Chile,Energia Renovable,1728050,10,20,5,2,Alto,2024
+267,Costa Rica,Ciberseguridad,871106,25,12,3,3,Medio,2023
+268,Chile,Agrotecnologia,1265502,16,24,5,4,Medio,2022
+269,Ecuador,Ciberseguridad,1669135,47,3,4,1,Bajo,2024
+270,Guatemala,Salud Digital,910120,7,15,3,1,Medio,2022
+271,Panama,Inteligencia Artificial,481734,8,3,8,1,Alto,2020
+272,Costa Rica,Salud Digital,1471796,28,5,4,2,Medio,2024
+273,Mexico,Ciberseguridad,715627,17,18,4,0,Alto,2020
+274,Panama,Ciberseguridad,271897,25,4,2,0,Bajo,2024
+275,Guatemala,Biotecnologia,51062,10,14,5,1,Medio,2019
+276,Paraguay,Biotecnologia,1346312,42,10,6,0,Alto,2021
+277,Bolivia,Salud Digital,1673312,43,8,4,3,Medio,2020
+278,Ecuador,Nanotecnologia,145462,35,16,4,0,Alto,2024
+279,Ecuador,Salud Digital,1498021,14,24,1,2,Bajo,2021
+280,Mexico,Biotecnologia,1548585,39,12,3,1,Bajo,2020
+281,Costa Rica,Ciberseguridad,820173,40,21,5,1,Alto,2023
+282,Uruguay,Energia Renovable,622203,27,3,4,0,Bajo,2024
+283,Colombia,Salud Digital,1365352,29,16,5,0,Alto,2023
+284,Costa Rica,Ciberseguridad,1727456,22,15,7,0,Alto,2019
+285,Bolivia,Energia Renovable,708956,15,21,8,0,Bajo,2024
+286,Uruguay,Energia Renovable,1470499,35,23,4,1,Medio,2019
+287,Ecuador,Biotecnologia,1497960,28,12,6,1,Bajo,2021
+288,Chile,Salud Digital,1730963,37,4,2,0,Medio,2020
+289,Bolivia,Agrotecnologia,581849,22,18,7,1,Bajo,2022
+290,Guatemala,Inteligencia Artificial,517010,22,13,3,2,Bajo,2019
+291,Mexico,Biotecnologia,1705016,19,22,9,0,Medio,2022
+292,Guatemala,Biotecnologia,1747900,14,16,3,0,Medio,2022
+293,Bolivia,Agrotecnologia,436193,45,17,5,0,Alto,2020
+294,Peru,Inteligencia Artificial,76734,7,6,3,0,Alto,2021
+295,Peru,Ciberseguridad,973875,30,21,7,0,Medio,2020
+296,Paraguay,Nanotecnologia,76069,44,7,3,0,Medio,2024
+297,Costa Rica,Salud Digital,1833841,14,20,6,1,Alto,2019
+298,Ecuador,Nanotecnologia,587198,27,6,6,1,Medio,2022
+299,Ecuador,Ciberseguridad,1434199,9,4,3,0,Medio,2020
+300,Colombia,Biotecnologia,520951,31,2,2,3,Alto,2020
+301,Colombia,Inteligencia Artificial,131264,34,7,4,1,Medio,2020
+302,Colombia,Biotecnologia,73275,39,16,8,0,Medio,2019
+303,Chile,Energia Renovable,646562,28,3,5,1,Alto,2021
+304,Panama,Biotecnologia,1573241,42,4,10,0,Alto,2020
+305,Argentina,Biotecnologia,412920,16,18,4,0,Medio,2019
+306,Panama,Ciberseguridad,241076,11,13,1,2,Bajo,2022
+307,Guatemala,Ciberseguridad,1292629,23,19,4,0,Medio,2024
+308,Panama,Ciberseguridad,1052163,26,16,7,0,Bajo,2023
+309,Chile,Nanotecnologia,1808489,47,13,7,1,Medio,2019
+310,Paraguay,Energia Renovable,622735,41,17,6,1,Bajo,2023
+311,Guatemala,Ciberseguridad,962826,46,9,7,1,Alto,2020
+312,Panama,Inteligencia Artificial,649991,43,15,7,2,Bajo,2020
+313,Chile,Nanotecnologia,912522,39,18,2,1,Bajo,2019
+314,Argentina,Agrotecnologia,853692,22,22,2,1,Medio,2023
+315,Panama,Inteligencia Artificial,1211157,42,9,9,2,Medio,2020
+316,Chile,Salud Digital,1364532,30,16,1,1,Bajo,2022
+317,Colombia,Salud Digital,471240,43,15,5,0,Medio,2021
+318,Ecuador,Inteligencia Artificial,1812592,17,19,7,1,Medio,2021
+319,Colombia,Ciberseguridad,952580,28,21,3,1,Bajo,2020
+320,Ecuador,Agrotecnologia,994789,47,8,8,0,Bajo,2023
+321,Mexico,Agrotecnologia,1059940,27,4,6,0,Alto,2024
+322,Mexico,Nanotecnologia,166421,26,13,7,0,Medio,2020
+323,Mexico,Agrotecnologia,575893,32,22,5,1,Bajo,2024
+324,Argentina,Salud Digital,1562950,36,4,3,2,Alto,2024
+325,Colombia,Energia Renovable,122303,11,21,9,1,Alto,2023
+326,Ecuador,Ciberseguridad,208211,32,15,5,0,Medio,2024
+327,Chile,Agrotecnologia,1044653,45,16,8,1,Medio,2022
+328,Guatemala,Nanotecnologia,237210,39,15,12,0,Alto,2023
+329,Chile,Salud Digital,1884813,17,8,5,2,Alto,2020
+330,Guatemala,Energia Renovable,912557,12,18,6,0,Medio,2022
+331,Peru,Biotecnologia,194990,15,13,2,0,Medio,2019
+332,Chile,Biotecnologia,1257094,22,21,2,1,Medio,2021
+333,Panama,Energia Renovable,174040,31,5,8,1,Medio,2020
+334,Panama,Salud Digital,718406,26,10,3,1,Bajo,2020
+335,Costa Rica,Nanotecnologia,1621714,33,7,5,3,Medio,2020
+336,Colombia,Energia Renovable,468034,7,17,3,2,Alto,2022
+337,Guatemala,Ciberseguridad,806254,6,23,5,1,Medio,2019
+338,Guatemala,Ciberseguridad,1083255,41,23,3,0,Medio,2023
+339,Bolivia,Biotecnologia,840756,31,22,4,1,Medio,2019
+340,Paraguay,Agrotecnologia,1961331,34,22,5,1,Bajo,2022
+341,Colombia,Nanotecnologia,845543,26,3,6,3,Medio,2020
+342,Argentina,Biotecnologia,1005614,16,9,6,0,Medio,2021
+343,Costa Rica,Agrotecnologia,590677,45,12,8,1,Bajo,2020
+344,Argentina,Agrotecnologia,1745041,16,14,7,0,Bajo,2023
+345,Argentina,Ciberseguridad,1402147,41,18,6,1,Alto,2024
+346,Argentina,Salud Digital,1047083,44,9,8,1,Bajo,2021
+347,Colombia,Inteligencia Artificial,1782682,45,22,9,0,Bajo,2020
+348,Argentina,Salud Digital,1221459,40,19,6,0,Alto,2021
+349,Panama,Inteligencia Artificial,1841822,39,19,7,4,Medio,2024
+350,Paraguay,Energia Renovable,812501,29,15,8,1,Medio,2019
+351,Paraguay,Ciberseguridad,437952,27,16,2,1,Alto,2022
+352,Mexico,Agrotecnologia,162221,10,7,3,3,Bajo,2020
+353,Peru,Nanotecnologia,1080117,38,12,2,2,Medio,2023
+354,Guatemala,Inteligencia Artificial,849666,41,14,4,0,Medio,2019
+355,Bolivia,Salud Digital,310669,25,2,7,2,Alto,2020
+356,Guatemala,Agrotecnologia,809224,24,7,7,1,Medio,2019
+357,Peru,Inteligencia Artificial,889873,40,10,9,0,Medio,2023
+358,Bolivia,Inteligencia Artificial,575134,22,9,6,1,Medio,2020
+359,Colombia,Inteligencia Artificial,1633818,39,12,2,0,Medio,2024
+360,Chile,Nanotecnologia,1439959,14,23,4,0,Medio,2024
+361,Colombia,Ciberseguridad,294761,31,20,9,1,Medio,2023
+362,Guatemala,Nanotecnologia,882946,7,10,3,2,Medio,2021
+363,Guatemala,Biotecnologia,924668,14,18,3,1,Medio,2023
+364,Bolivia,Agrotecnologia,1982587,14,13,9,3,Medio,2021
+365,Bolivia,Ciberseguridad,187541,45,15,3,1,Medio,2020
+366,Peru,Ciberseguridad,997609,22,16,7,0,Alto,2021
+367,Argentina,Ciberseguridad,1927109,6,17,7,1,Medio,2020
+368,Colombia,Salud Digital,114323,30,23,3,1,Alto,2020
+369,Bolivia,Ciberseguridad,666210,45,23,4,0,Alto,2022
+370,Ecuador,Nanotecnologia,1287715,47,21,1,1,Medio,2020
+371,Peru,Ciberseguridad,1279024,30,2,3,2,Medio,2021
+372,Panama,Energia Renovable,1799523,44,11,5,0,Alto,2022
+373,Guatemala,Agrotecnologia,1004480,40,9,5,3,Medio,2022
+374,Peru,Ciberseguridad,285659,8,19,6,2,Alto,2020
+375,Colombia,Agrotecnologia,439678,42,2,1,0,Medio,2023
+376,Bolivia,Energia Renovable,904016,35,3,6,0,Medio,2023
+377,Guatemala,Energia Renovable,1203113,43,2,6,1,Bajo,2024
+378,Chile,Agrotecnologia,914909,39,2,1,1,Medio,2022
+379,Peru,Inteligencia Artificial,291983,17,10,3,1,Alto,2020
+380,Costa Rica,Biotecnologia,1665397,24,14,6,0,Medio,2023
+381,Guatemala,Salud Digital,838260,42,2,8,3,Medio,2020
+382,Colombia,Inteligencia Artificial,1100493,22,14,8,2,Alto,2020
+383,Mexico,Inteligencia Artificial,332762,15,21,8,0,Medio,2022
+384,Ecuador,Nanotecnologia,1655118,17,23,8,3,Medio,2024
+385,Uruguay,Salud Digital,836275,21,8,2,2,Medio,2022
+386,Argentina,Salud Digital,1466012,29,3,6,0,Medio,2019
+387,Uruguay,Inteligencia Artificial,1608506,24,7,4,1,Bajo,2023
+388,Colombia,Ciberseguridad,621650,13,8,8,0,Medio,2023
+389,Panama,Nanotecnologia,332272,36,15,11,2,Medio,2023
+390,Panama,Nanotecnologia,435925,26,19,2,1,Medio,2021
+391,Mexico,Energia Renovable,816641,22,16,5,0,Medio,2020
+392,Argentina,Salud Digital,764743,28,3,10,1,Medio,2022
+393,Costa Rica,Inteligencia Artificial,639833,42,11,4,0,Bajo,2023
+394,Mexico,Energia Renovable,1180756,21,24,8,0,Medio,2019
+395,Paraguay,Agrotecnologia,1710822,11,13,4,0,Bajo,2023
+396,Uruguay,Biotecnologia,453081,13,18,3,1,Medio,2024
+397,Mexico,Nanotecnologia,969723,30,9,6,1,Alto,2020
+398,Uruguay,Agrotecnologia,351953,23,12,7,1,Medio,2020
+399,Guatemala,Agrotecnologia,428892,30,4,4,1,Medio,2022
+400,Panama,Ciberseguridad,55287,17,7,7,0,Bajo,2021
