@@ -221,7 +221,7 @@ print(indicadores_pais)
 ```{r}
 # Similar, definimos también las variables que vamos a utilizar durante el ciclo while, así como los umbrales
 eficiencia_vec = (proyectos$publicaciones + proyectos$patentes) / proyectos$presupuesto_usd
-umbral = (mean(eficiencia_vec, na.rm = TRUE) + 2) * sd(eficiencia_vec, na.rm = TRUE)
+umbral = mean(eficiencia_vec, na.rm = TRUE) + 2 * sd(eficiencia_vec, na.rm = TRUE)
 cat("Umbral de eficiencia:", round(umbral, 6), "\n") # Para fines prácticos mostramos en pantalla el umbral
 
 proyectos_sobresalientes = c()
@@ -325,3 +325,40 @@ ggplot(proyectos, aes(x = area_tecnologica, y = presupuesto_usd, fill = area_tec
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
+
+```{r}
+#Verificacion de resultados - Parte IX
+
+#Presupuesto promedio por area tecnologica
+presupuesto_por_area = proyectos %>% group_by(area_tecnologica) %>% summarize(presupuesto_promedio = round(mean(presupuesto_usd), 0)) %>% arrange(desc(presupuesto_promedio))
+print(presupuesto_por_area)
+
+#Correlacion entre presupuesto y publicaciones
+correlacion = cor(proyectos$presupuesto_usd, proyectos$publicaciones, use = "complete.obs")
+cat(sprintf("Correlacion presupuesto vs publicaciones: %.4f\n", correlacion))
+
+#Top paises con mayor productividad promedio
+top_productividad = proyectos %>% group_by(pais) %>% summarize(productividad_promedio = round(mean(productividad, na.rm = TRUE), 3)) %>% arrange(desc(productividad_promedio)) %>% slice_head(n = 3)
+print(top_productividad)
+
+#Utilizamos el umbral y la eficiencia calculadas en la parte VI. 
+proyectos_atipicos = proyectos[eficiencia_vec > umbral, c("id_proyecto", "pais", "area_tecnologica", "publicaciones", "patentes", "presupuesto_usd")]
+print(proyectos_atipicos)
+
+```
+
+
+
+Parte IX - Análisis e interpretación
+
+¿Qué áreas tecnológicas reciben mayor financiamiento?
+Según los resultados de presupuesto_por_area en la parte previa a este texto, los presupuestos más grandes pertenecen a las áreas de Salud Digital, con un presupuesto promedio de 1108867, Agrotecnologia, con un presupuesto promedio de 1064492 y Biotecnología, con un presupuesto promedio de 1060756.
+
+¿Existe relación entre presupuesto y resultados?
+Se buscó la función cor, que nos permitió ver la correlación entre presupuesto y publicaciones. Al tener un resultado de -0.0085 podemos concluir que la relación entre presupuesto y resultados es practicamente nula. Un presupuesto mayor no garantiza mayores y mejores resultados.
+
+¿Qué países presentan mayor productividad?
+Los países con una mayor productividad son Argentina, Bolivia y Costa Rica. 
+
+¿Se identifican proyectos atípicos?
+Si, los proyectos atípicos son 17 y tienen un mayor rendimiento de publicaciones y patentes con respecto al presupuesto que tienen asignado. 
